@@ -155,7 +155,8 @@ module.exports = {
    testPathIgnorePatterns: [
      "\\\\node_modules\\\\",
      "<rootDir>/_ch3",
-     "CarouselSlide.test.js",
+	 "CarouselButton.test.js",
+     //"CarouselSlide.test.js",
      "Carousel.test.js"
    ],
 
