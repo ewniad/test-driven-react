@@ -19,11 +19,11 @@ describe('CarouselButton', () => {
     expect(wrapper.type()).toBe('button');
   });
 
-/*
   it('passes `children` through to the <button>', () => {
     expect(wrapper.prop('children')).toBe(text);
   });
 
+/*
   it('passes other props through to the <button>', () => {
     const onClick = () => {};
     const className = 'my-carousel-button';
