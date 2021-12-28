@@ -1,10 +1,17 @@
 module.exports = {
-    plugins: ['react'],
-    extends: ['eslint:recommended', 'plugin:react/recommended'],
-    parser: 'babel-eslint',
     env: {
         node: true,
     },
+    //extends: ['eslint:recommended', 'plugin:react/recommended'],
+    //parser: 'babel-eslint',
+    extends: [
+        'eslint:recommended',
+        'plugin:react/recommended',
+        'plugin:@typescript-eslint/recommended',
+    ],
+    parser: '@typescript-eslint/parser',
+    //plugins: ['react'],
+    plugins: ['react', '@typescript-eslint'],
     rules: {
         quotes: ['error', 'single', { avoidEscape: true }],
         'comma-dangle': ['error', 'always-multiline'],
