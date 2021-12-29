@@ -157,8 +157,8 @@ module.exports = {
         '<rootDir>/_ch3',
         'aaa.test.tsx',
         //'CarouselButton.test.js',
-        'CarouselSlide.test.js',
-        'Carousel.test.js',
+        //'CarouselSlide.test.js',
+        //'Carousel.test.js',
     ],
 
     // The regexp pattern or array of patterns that Jest uses to detect test files
