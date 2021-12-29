@@ -1,3 +1,7 @@
 it('A', () => {
-    expect(1).toBe(1);
+    expect(f()).toBe(1);
 });
+
+function f(): number {
+    return 1;
+}

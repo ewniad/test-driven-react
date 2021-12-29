@@ -155,9 +155,9 @@ module.exports = {
     testPathIgnorePatterns: [
         '\\\\node_modules\\\\',
         '<rootDir>/_ch3',
-        //'CarouselButton.test.js',
-        //'CarouselSlide.test.js',
-        //'Carousel.test.js',
+        'CarouselButton.test.js',
+        'CarouselSlide.test.js',
+        'Carousel.test.js',
     ],
 
     // The regexp pattern or array of patterns that Jest uses to detect test files
